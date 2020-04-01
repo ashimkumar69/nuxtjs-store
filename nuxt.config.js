@@ -136,7 +136,8 @@ export default {
 
       {
         src: "/homepagejs/index.js",
-        type: "text/javascript"
+        type: "text/javascript",
+        defer: true
       },
       {
         src: "/js/main.js",

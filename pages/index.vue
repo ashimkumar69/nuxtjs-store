@@ -1,16 +1,21 @@
 <template>
   <div>
-    <h1>ok</h1>
+    <slider></slider>
   </div>
 </template>
 
 <script>
+import slider from "~/components/home/slider/index.vue";
 export default {
+  components: {
+    slider
+  },
   head: {
     title: "Home"
   }
 };
 </script>
+
 
 <style>
 </style>
