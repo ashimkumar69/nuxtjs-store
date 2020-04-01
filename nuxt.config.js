@@ -140,7 +140,8 @@ export default {
       },
       {
         src: "/js/main.js",
-        type: "text/javascript"
+        type: "text/javascript",
+        defer: true
       }
     ]
   },
